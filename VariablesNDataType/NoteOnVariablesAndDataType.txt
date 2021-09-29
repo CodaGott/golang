@@ -45,3 +45,18 @@ Different data-types in Golang...
     
     4. Characters - character in single quotation marks.
         'H'
+
+
+There are types of variable decreation. Explicit and Implicit creation.
+
+Explicit decreation is when upon creations you define the data-type the variable should hold,
+for example "var number unit16" will only hold integer numbers of none negative type.
+
+Implicit is when you don't define the type of data a variable should hold.
+
+A variable can be defined without using the var keyword by doing this "variable name := value"
+for example name := "Dozie".
+
+
+NOTE:
+An empty integer variable has a default value of zero, boolean has default value of false.
