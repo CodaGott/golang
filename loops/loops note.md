@@ -2,10 +2,10 @@
 
 Golang has multiple ways in which one can write for loops.
 
-for loop is used to excute a block of code multiple times.
+for loop is used to execute a block of code multiple times.
 
 for loop Syntax in GO:
-    
+
     1. for condition {
         action
     }

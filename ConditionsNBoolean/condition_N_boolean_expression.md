@@ -1,6 +1,6 @@
 # Condition & Boolean Expressions in Golang
 
-    GOLANG has the standard comparism operators that most programming language has.
+    GOLANG has the standard comparison operators that most programming language has.
 
     > "the greater than sign."
     < "the less than sign."

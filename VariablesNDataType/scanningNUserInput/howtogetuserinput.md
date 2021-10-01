@@ -1,4 +1,4 @@
-Getting user inputs requires importing these following libraries.
+# Getting user inputs requires importing these following libraries
 
 bufio, os, strconv.
 

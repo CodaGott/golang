@@ -47,9 +47,9 @@ Different data-types in Golang...
         'H'
 
 
-There are types of variable decreation. Explicit and Implicit creation.
+There are types of variable declaration. Explicit and Implicit creation.
 
-Explicit decreation is when upon creations you define the data-type the variable should hold,
+Explicit declaration is when upon creations you define the data-type the variable should hold,
 for example "var number unit16" will only hold integer numbers of none negative type.
 
 Implicit is when you don't define the type of data a variable should hold.
