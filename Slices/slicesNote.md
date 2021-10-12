@@ -17,3 +17,4 @@ In SLICES.
     1. Pointers = This points to the index of an element within a slice and not the entire arrays.
     2. Length = This is the number of elements in a Slice of array.
     3. Capacity = This is the total number of elements an array can have after the slices.
+    Let's say we have a 5 element arrays and within that we have a slice of 3 array elements. The capacity of that Array will be 4 because after the last slice there is another room for another element.
