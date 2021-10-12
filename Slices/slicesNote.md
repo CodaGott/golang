@@ -4,3 +4,16 @@ Slices are have similarities as arrays but have some improvements. One of those 
 
 Major Difference between Arrays N Slices.
 
+Arrays and Slices have three major characteristics but they work differently:
+
+In ARRAYS.
+    1. Pointers = This indicates the index or position of an element.
+    2. Length = This indicates the total number of elements in a given array.
+    3. Capacity = This indicates the total number of items in a given array just like the length.
+
+In SLICES.
+    Slices are just portion of an array, we can have 4 elements in an array but have only 2 elements in a slice.
+
+    1. Pointers = This points to the index of an element within a slice and not the entire arrays.
+    2. Length = This is the number of elements in a Slice of array.
+    3. Capacity = This is the total number of elements an array can have after the slices.
