@@ -28,4 +28,14 @@ Syntax:
 
 To add a value in a map, we call the variable we used to store the map, followed by a square bracket and inside the bracket we create a new key of the map then assign a new value to it. Remember the key must not be the same as any of the previous ones
 
+To delete from a map you just use the delete method and and in side the method you enter the the name of the map you want to delete followed by the key to the value you want to remove comma separated.
+
+Syntax:
+    delete(map_name, "key_of_map_value")
+
+To get the number of elements in a map you use the len method.
+
+Syntax:
+    len(map_name)
+
 Look up other ways to create maps.
