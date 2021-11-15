@@ -10,6 +10,8 @@ func main() {
 
 	array := []int {4,5,6}
 
+	// arr2D := [][]int {{1, 3}, {4, 6}}
+
 
 	sum := 0
 

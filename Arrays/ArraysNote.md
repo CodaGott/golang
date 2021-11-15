@@ -28,5 +28,11 @@ Another way we can define array when we know the values we are expecting is to p
 
 We can have nested arrays in Golang and nested arrays are simply arrays inside of an array.
 
+When we define a 2D array, the number in the first square bracket is the number of arrays we want to have and the next one is the number of array elements each of the arrays will have.
+
+arr2D := [the number of arrays we are creating][number of elements in the array] = {{}, {}}, example below.
+
+arr2D := [2][2] {{1, 3},{4, 6}}
+
     Syntax:
-        arr := [] int {your value(s), {another value(s)}, {another value(s)}}
+        arr := [][][] int {your value(s), {another value(s)}, {another value(s)}}
