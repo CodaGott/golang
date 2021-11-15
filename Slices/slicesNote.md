@@ -40,3 +40,11 @@ We can Just declare a slice on it own like the example below:
     This create a slice for us.
 
 To add element to the slice we use the "append()" method and in the method we pass the name of the slice followed by the value we want to pass to our slice comma separated.
+
+Note the append method needs to be assigned to a variable so to append another item into the slice above, we do this example below:
+
+b := append(a, 10), this will add the number 10 to the end of the above arrays and assign the array to the variable b.
+
+The example above copies the value of the array and transfers it to the new variable with the appended value.
+
+This means The previous array still has it's values but the variable with append now has the value of the array plus the appended value.
