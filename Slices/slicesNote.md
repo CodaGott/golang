@@ -48,3 +48,8 @@ b := append(a, 10), this will add the number 10 to the end of the above arrays a
 The example above copies the value of the array and transfers it to the new variable with the appended value.
 
 This means The previous array still has it's values but the variable with append now has the value of the array plus the appended value.
+
+We can also make slices using the make method, This will create an empty slice for us.
+Syntax : variable := make([]dataType, sizeOfSliceElement)
+
+So this "make_slice := make([]int, 5)" will create a slice of 5 elements.
