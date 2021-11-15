@@ -25,6 +25,7 @@ func main(){
 	fmt.Println("New slice 2 after append", new_slice2)
 
 	make_slice := make([]int, 5)
+	 make_slice[2] = 4 //This will assign the value 4 to the slice at index 2.
 	fmt.Println("The slice made with make method", make_slice)
 
 }
