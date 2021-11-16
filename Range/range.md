@@ -12,3 +12,7 @@ Syntax:
             fmt.Println(i, element)
         }
 what you are say is for all the element in the values starting from the first to the last loop through them all.
+
+While Iterating over a slice, string or slice with range, the i in the loop is the variable that will represent the index of the element you're looping through.
+
+You can create an anonymous variable by using the underscore, this allows you to declare a variable and not use it.

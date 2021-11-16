@@ -24,4 +24,11 @@ func main(){
 	vie, now := map_name["pear"]
 	fmt.Println(vie, now)
 	fmt.Println(map_name)
+	fmt.Println()
+	fmt.Println()
+
+	var human map[string]string = map[string]string{
+		"firstName": " Dozie.", "lastName": " Ebuka.", "age": " 31.", "nationality": " Nigeria",
+	}
+	fmt.Println(human["lastName"])
 }

@@ -4,7 +4,7 @@ Maps allows use to store a key, value pair. So a key is mapped to a value so to 
 
 In array we access based on elements position but with map we access by key.
 
-To define a map we we create a variable followed by the "map" keyword followed by square bracket and the datatype of the key and outside of the bracket the type of values the map is going to hold then assign to this variable map starting with "map" keyword followed by square bracket and the datatype of the key and outside of the bracket the type of values the map is going to hold.
+To define a map we create a variable followed by the "map" keyword followed by square bracket and the datatype of the key and outside of the bracket the type of values the map is going to hold then assign to this variable map starting with "map" keyword followed by square bracket and the datatype of the key and outside of the bracket the type of values the map is going to hold.
 
 Syntax:
     var map_name map[data_type_for_key]data_type_for_values = map[data_type_for_key]data_type_for_values{
