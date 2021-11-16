@@ -15,3 +15,12 @@ Example below:
 The above information is saying that we are expecting information of the same data-type so we don't want to repeat the data-type specification.
 
 This works that way because golang is built in a way that it assumes that values coming in is of the same data-type.
+
+when you have parameters of different types be sure to specify the data-types of each parameter.
+
+# How to add  to a function in Golang
+
+To add a return type to a function, we add the data-type the function is expected to return after the closing parenthesis before the curl-braces.
+Example below:
+
+    syntax: func name_of_function(parameter(s)) data-type to be returned {}
