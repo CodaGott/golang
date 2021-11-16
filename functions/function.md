@@ -24,3 +24,8 @@ To add a return type to a function, we add the data-type the function is expecte
 Example below:
 
     syntax: func name_of_function(parameter(s)) data-type to be returned {}
+
+A function can return more than 1 data-type values. To do this separate the data-type to be returned with a comma and both returning data-type will be in a parenthesis.
+Example below:
+
+    syntax: func name_of_function(parameter(s)) (returning_data-type1, returning_data-type2){ return parameters, another_parameters} 
