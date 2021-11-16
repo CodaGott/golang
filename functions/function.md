@@ -28,4 +28,6 @@ Example below:
 A function can return more than 1 data-type values. To do this separate the data-type to be returned with a comma and both returning data-type will be in a parenthesis.
 Example below:
 
-    syntax: func name_of_function(parameter(s)) (returning_data-type1, returning_data-type2){ return parameters, another_parameters} 
+    syntax: func name_of_function(parameter(s)) (returning_data-type1, returning_data-type2){ return parameters, another_parameters}
+
+Golang has a labeled return function that allows you to label what you are expecting you function to return.
