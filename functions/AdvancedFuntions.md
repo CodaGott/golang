@@ -20,3 +20,19 @@ What happens is when addition() is called it calls the function that was assigne
 Important to note is we can reference even functions with parameter.
 
 We can create a function in another function in golang. We do this by making a variable and then assigning the variable the func keyword followed by parenthesis, and curly braces.
+
+Even a function inside a function can also have parameters.
+
+We can use a return type for a function inside a function and even assign it a value before calling it.
+
+Example:
+func main() {
+
+ test := func(x int) int  {
+  return x + 1
+ }(8)
+
+ fmt.Println(test)
+}
+
+The above example is assigning the test function the value of 8, so can call the function without having to assign any other value to it.
