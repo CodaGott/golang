@@ -36,3 +36,9 @@ func main() {
 }
 
 The above example is assigning the test function the value of 8, so can call the function without having to assign any other value to it.
+
+A function can take another function as a parameter this can be done by the example below.
+
+func add(myFunc func(int) int){}
+
+This means the function will take another function takes an integer and that returns and int too.
