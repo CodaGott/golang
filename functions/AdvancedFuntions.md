@@ -1,0 +1,16 @@
+# Advanced Functions
+
+In golang functions are actually their own data-types, just like float, string, int and others. This means they act similarly to things like other data-types.
+
+We can pass them as variables, we can return a function or just send them around our program the same way we treat other data-types.
+
+Calling a function is when we close the function name with parenthesis. e.g. let's say we have a function that adds numbers "add()" that's an example of a function call.
+
+When we write a function name and not add the parenthesis, we are just making a reference to the function or creating a pointer to it.
+
+If we assign a function reference to a variable we can actually call the variable the same way we could have called the function.
+Still on the add function example above, we can decided to make a reference of the function instead by following the example below.
+
+addition := add
+
+To call we can now decide to call the variable as if it's a function. Like so "addition()"
