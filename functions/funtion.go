@@ -17,6 +17,13 @@ func multiply(num1, num2 int) int{
 
 func main() {
 
+
+	test := func()  {
+		fmt.Println("Going")
+	}
+
+	test()
+
 	world := "World!"
 
 	name(world)

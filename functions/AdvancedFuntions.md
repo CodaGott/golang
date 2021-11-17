@@ -14,3 +14,9 @@ Still on the add function example above, we can decided to make a reference of t
 addition := add
 
 To call we can now decide to call the variable as if it's a function. Like so "addition()"
+
+What happens is when addition() is called it calls the function that was assigned to it.
+
+Important to note is we can reference even functions with parameter.
+
+We can create a function in another function in golang. We do this by making a variable and then assigning the variable the func keyword followed by parenthesis, and curly braces.
