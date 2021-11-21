@@ -50,3 +50,5 @@ Example below:
     }()
 
 The function above have been called immediately after declaration. It's called literal function, you can't make this type of function outside the main function as functions outside main needs a way to be identified "name".
+
+When you have a function inside a function that uses the value of the function it's inside of, it's known as a closure.
