@@ -44,4 +44,9 @@ func add(myFunc func(int) int){}
 This means the function will take another function takes an integer and that returns and int too.
 
 You can make a function and call it immediately without assigning it to a variable.
-Example below
+Example below:
+    func(){
+        do some action.
+    }()
+
+The function above have been called immediately after declaration.
