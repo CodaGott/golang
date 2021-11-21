@@ -12,8 +12,14 @@ func main() {
 	
 	hello := sayHello
 	hello()
+
+	func ()  {
+		fmt.Println("Hello")
+	}()
 }
 
 func sayHello(){
 	fmt.Println("When called, I say Hello!")
 }
+
+

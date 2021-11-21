@@ -49,4 +49,4 @@ Example below:
         do some action.
     }()
 
-The function above have been called immediately after declaration.
+The function above have been called immediately after declaration. It's called literal function, you can't make this type of function outside the main function as functions outside main needs a way to be identified "name".
