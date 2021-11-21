@@ -42,3 +42,6 @@ A function can take another function as a parameter this can be done by the exam
 func add(myFunc func(int) int){}
 
 This means the function will take another function takes an integer and that returns and int too.
+
+You can make a function and call it immediately without assigning it to a variable.
+Example below
