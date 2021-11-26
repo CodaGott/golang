@@ -47,3 +47,5 @@ We can have a type of a struct in another struct. Let's say we have a Human stru
 To access a value in an embedded struct, we start with the name of the type that the other struct is inside of then use the dot "." name of the struct inside it another dot "." the name of the field we want to access.
 
 Example: Working with human and dog example, we can do something like this john.dog.name, this will give use access to the name of the dog inside of type of struct john.
+
+We can decide to not have a specified or give a name to an embedded struct. We can do this by adding asterisk before the embedded struct. As long as the embedded struct does not have any field with the same struct it's inside we are good and can access a specific field in our embedded struct by using the name or type of the struct it's embedded in followed by dot and the field we want to access.
