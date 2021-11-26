@@ -9,7 +9,7 @@ type Student struct {
 }
 
 func main() {
-	emma := Student{name: "Emma", age: 23}
+	emma := Student{name: "Emma",grades: []int{90, 90, 99}, age: 31}
 
 	fmt.Println(emma.age)
 }
