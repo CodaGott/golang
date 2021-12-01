@@ -16,7 +16,7 @@ func(student1 Student) setAge(name string){
 
 It's advised to have pointers on a method that is used to change values of a struct because if we have say name already existing in the student struct if we just pass in a new value without having the method as a pointer it will not change the already existing name. So we want to have the syntax below if the intention is to change an information that is already existing.
 
-func(student1 *Student) setAge(name string){
+func(student1 *Student) setName(name string){
     student1.name = name
 }
 
