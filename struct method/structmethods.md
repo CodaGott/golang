@@ -20,4 +20,4 @@ func(student1 *Student) setAge(name string){
     student1.name = name
 }
 
-if the method is basically for maybe calculating or manipulating values then we don't need to add pointers to the method. 
+if the method is basically for maybe calculating or manipulating values then we don't need to add pointers to the method.
