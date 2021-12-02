@@ -53,3 +53,21 @@ The above operations are possible because the savings struct is implementing bot
 
 It's important to note that Interface are implemented implicitly because in the above example we didn't have any explicit declaration that the savings type implements the account interface.
 In Go you don't have to explicitly say that this type is implementing an interface. A type implements an interface if it implements all the methods of the interface.
+A struct must implement all the methods of an interface or an error will be raised.
+
+We can assign the same interface variable name to different struct and their individual implementations or behavior will be called upon execution. This is how Polymorphism is achieved in Go.
+
+Method signature is important when implementing an interface.
+
+We can pass interface type as argument to a function that accepts an argument of the interface.
+
+With our account example we can have a method that calls deposit or savings. And if that method takes our interface as a parameter, we can pass in the instances of the struct type.
+
+type account interface{
+    method1
+    method2
+}
+
+type savings struct(){
+    some variables
+}
