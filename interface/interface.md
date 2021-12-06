@@ -64,10 +64,22 @@ We can pass interface type as argument to a function that accepts an argument of
 With our account example we can have a method that calls deposit or savings. And if that method takes our interface as a parameter, we can pass in the instances of the struct type.
 
 type account interface{
-    method1
-    method2
+    method1()
+    method2()
 }
 
 type savings struct(){
     some variables
+}
+
+func (s savings) method1(){
+    // some code
+}
+
+func (s savings) method2(){
+    // some code
+}
+
+func main(){
+    acc := savings{}
 }
