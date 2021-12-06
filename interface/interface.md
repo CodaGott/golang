@@ -20,7 +20,7 @@ type account interface {
 }
 
 We can create a variable of the above interface by creating a variable name and followed by name of the interface. EXAMPLE BELOW:
-acc := account "This is how a variable of interface can be created." The default value of an interface is nill.
+var acc account "This is how a variable of interface can be created." The default value of an interface is nill.
 
 # Implemeting an Interface.
 
@@ -59,27 +59,26 @@ We can assign the same interface variable name to different struct and their ind
 
 Method signature is important when implementing an interface.
 
-We can pass interface type as argument to a function that accepts an argument of the interface.
+We can pass interface type as argument to a function and when calling the function we can pass a struct as a value to the function.
 
-With our account example we can have a method that calls deposit or savings. And if that method takes our interface as a parameter, we can pass in the instances of the struct type.
+With our account example we can have a method that that takes our account as a param and such method can be used to access any of the interface methods.
+
+We create a struct variable and pass it to the method when we call it, this will call the withdraw method of that particular struct.
 
 type account interface{
     method1()
     method2()
 }
 
-type savings struct(){
-    some variables
+func callWithdraw(acc account){
+    acc.withdraw()
 }
 
-func (s savings) method1(){
-    // some code
-}
-
-func (s savings) method2(){
-    // some code
-}
-
+Passing value to the function above.
 func main(){
-    acc := savings{}
+
+    savingsAcc := savings{}
+    callWithdraw(savingsAcc)
+
+    This will call the withdraw method of the interface.
 }

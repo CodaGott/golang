@@ -5,6 +5,10 @@ import "fmt"
 func main() {
 	var a account
 
+	var acc account
+
+	acc.deposit()
+
 	a = savings{typeOfAccount: ""}
 	a.deposit()
 	a.withdraw()
@@ -27,4 +31,13 @@ func (s savings) deposit(){
 func (s savings) withdraw(){
 	s.typeOfAccount = "Savings struct Withdraw method"
 	fmt.Println(s)
+}
+
+type test struct{
+	name string
+	age int32
+}
+
+func(t test){
+	
 }
