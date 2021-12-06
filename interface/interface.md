@@ -82,3 +82,29 @@ func main(){
 
     This will call the withdraw method of the interface.
 }
+
+When a struct implements a function using pointer receiver, then a derefrence must be used to access or assign value to the struct.
+
+Note any custom type can implement an interface.
+
+Type Implementing Multiple Interfaces.
+A type is said to implement an interface when it defines all it's methods, That same type can also implement other interface(s) by defining it's methods too.
+
+Embedding Interfaces
+
+You can embed an interface inside another one by simply calling or writing it's name in another interface. We can use this to reduce repeating ourselves while writing code. One scenario where this can be used is when method(s) in an interface can be used in another, instead of repeating those method(s) we can simply embed/call another interface that has the needed method(s) and this will give us access to it's method(s). Remember any type that is implementing the interface that has the embed interface must implement the methods in the interface that is embedded in it.
+
+Embedding interface in a struct
+Interface can also be embedded in a struct and all it's methods can then be called using the struct.
+
+How these methods will be called will depend upon whether the embedded interface is a named field or an unnamed/anonymous field.
+
+    If the embedded interface is a named field, then interface methods has to be called via the named interface name. Named having a variable for the interface.
+
+    If the embedded interface is unnamed/anonymous field then interface methods can be referred directly or via the interface name. unnamed interface means not having a variable to it.
+
+If the interface is a named field, it can't be called directly. We will need it's interface name to access it. If it is not then we can call it direct.
+
+Also note that while creating the instance of either the struct with the embedded interface, the embedded interface i.e animal is initialized with a type implementing  it.
+
+If we don't initialize the embedded interface animal, then it will be initialized with the zero value of the interface which is nil. Calling it's method(s) will create a panic.
