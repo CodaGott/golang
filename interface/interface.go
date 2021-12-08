@@ -37,7 +37,3 @@ type test struct{
 	name string
 	age int32
 }
-
-func(t test){
-	
-}
