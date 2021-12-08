@@ -4,6 +4,9 @@ import "fmt"
 
 func main(){
 
+	name :=  [3]int {5 , 3 , 6}
+	fmt.Println("name:",name[2])
+
 	currentPopulation := 200.0
 
 	growth := 1.0

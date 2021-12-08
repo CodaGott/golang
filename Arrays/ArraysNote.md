@@ -34,5 +34,8 @@ arr2D := [the number of arrays we are creating][number of elements in the array]
 
 arr2D := [2][2] {{1, 3},{4, 6}}
 
+if you have an array and don't know the number of items you'll be adding to it, you can replace the place you add the number of arrays with triple dots. EXAMPLE BELOW <<<>>>
+nameOfArray :=[...] this will make your array open for more inputs.
+
     Syntax:
         arr := [][][] int {your value(s), {another value(s)}, {another value(s)}}
